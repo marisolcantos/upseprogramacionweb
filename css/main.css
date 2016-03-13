@@ -1,3 +1,4 @@
+/******** GENERAL*******/
 
 a {
 	text-decoration: none;
@@ -16,14 +17,33 @@ a {
 			background: #1C2833;
 			border-color:#FDFEFE;
 		}
+
+/******		*********/
 h1,h2{
 	color: #AED6F1;
-
 }
+h1 {
+	font-family: 'Oswald', sans-serif;
+	margin: 15px 0;
+	font-size: 1075 em;
+	font-weight: normal;
+	line-height: 0.8em;
+}	
+
+/******** NAVEGAR*****/
 nav{
 	background: #FAD7A0;
 
 }
-nav a, nav a:visited{
+nav a{
 	color: #F39C12;
 }
+
+nav a.selected {
+	color: #000;
+}
+nav a:hover
+{
+	color: #32673f;
+}
+/********FOOTER****/
